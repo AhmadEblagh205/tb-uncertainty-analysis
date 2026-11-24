@@ -1,0 +1,51 @@
+{
+  "factor_count": 25,
+  "analytical_mean": 181.5358,
+  "analytical_variance": 2085.3042,
+  "analytical_standard_uncertainty": 45.6651,
+  "sum_first_order": 0.999867,
+  "interaction_share": 0.000133,
+  "top_total_order": {
+    "x: PublicCoveragePerCapita": {
+      "S1": 0.4709,
+      "ST": 0.4709
+    },
+    "x: avgResidualsPerCapitaPerYear": {
+      "S1": 0.2466,
+      "ST": 0.2468
+    },
+    "x: PublicCoverageAlonePerCapita": {
+      "S1": 0.2278,
+      "ST": 0.2278
+    },
+    "x: MarriedPerCapita": {
+      "S1": 0.0112,
+      "ST": 0.0112
+    },
+    "x: incidenceRatePerCapita": {
+      "S1": 0.0092,
+      "ST": 0.0092
+    },
+    "x: MarriedHouseholdsPerCapita": {
+      "S1": 0.0089,
+      "ST": 0.0089
+    },
+    "x: Unemployed16_OverPerCapita": {
+      "S1": 0.0051,
+      "ST": 0.0051
+    },
+    "x: povertyPerCapita": {
+      "S1": 0.0048,
+      "ST": 0.0048
+    },
+    "x: AvgHouseholdSizePerCapita": {
+      "S1": 0.0047,
+      "ST": 0.0047
+    },
+    "x: BachDeg25_OverPerCapita": {
+      "S1": 0.0045,
+      "ST": 0.0045
+    }
+  },
+  "note": "Exact under the repository's independent-input coursework propagation assumptions."
+}

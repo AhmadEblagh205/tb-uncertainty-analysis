@@ -1,0 +1,52 @@
+{
+  "factor_count": 25,
+  "base_samples": 8192,
+  "model_runs": 221184,
+  "numerical_output_variance": 2083.958,
+  "exact_output_variance": 2085.304,
+  "max_abs_error_S1": 0.0086,
+  "max_abs_error_ST": 0.0128,
+  "top_exact_total_order": {
+    "x: PublicCoveragePerCapita": {
+      "S1_exact": 0.4709,
+      "ST_exact": 0.4709,
+      "ST_numerical": 0.4837
+    },
+    "x: avgResidualsPerCapitaPerYear": {
+      "S1_exact": 0.2466,
+      "ST_exact": 0.2468,
+      "ST_numerical": 0.2396
+    },
+    "x: PublicCoverageAlonePerCapita": {
+      "S1_exact": 0.2278,
+      "ST_exact": 0.2278,
+      "ST_numerical": 0.2267
+    },
+    "x: MarriedPerCapita": {
+      "S1_exact": 0.0112,
+      "ST_exact": 0.0112,
+      "ST_numerical": 0.0115
+    },
+    "x: incidenceRatePerCapita": {
+      "S1_exact": 0.0092,
+      "ST_exact": 0.0092,
+      "ST_numerical": 0.0092
+    },
+    "x: MarriedHouseholdsPerCapita": {
+      "S1_exact": 0.0089,
+      "ST_exact": 0.0089,
+      "ST_numerical": 0.009
+    },
+    "x: Unemployed16_OverPerCapita": {
+      "S1_exact": 0.0051,
+      "ST_exact": 0.0051,
+      "ST_numerical": 0.0052
+    },
+    "x: povertyPerCapita": {
+      "S1_exact": 0.0048,
+      "ST_exact": 0.0048,
+      "ST_numerical": 0.0048
+    }
+  },
+  "scope_note": "All 25 factors match the MCM factor set/distributions; independent-factor assumption retained from the coursework rebuild."
+}

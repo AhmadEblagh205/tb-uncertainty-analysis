@@ -1,0 +1,26 @@
+{
+  "rows_raw": 3047,
+  "rows_after_coursework_iqr_cleaning": 2050,
+  "mcm_samples": 100000,
+  "mean_output_mcm": 181.326,
+  "mean_output_analytical": 181.536,
+  "standard_uncertainty_mcm_full": 45.828,
+  "standard_uncertainty_analytical": 45.665,
+  "mcm_vs_analytical_relative_error": 0.00357,
+  "expanded_uncertainty_k2_analytical": 91.33,
+  "propagated_output_95pct_interval_mcm": [
+    91.71,
+    271.23
+  ],
+  "legacy_0p4pct_step_heuristic": {
+    "stop_at": 1755,
+    "sd_at_stop": 46.374,
+    "estimated_relative_mcse_at_stop": 0.01722
+  },
+  "relative_mcse_0p4pct_rule": {
+    "stop_at": 31000,
+    "sd_at_stop": 45.711,
+    "estimated_relative_mcse_at_stop": 0.00399
+  },
+  "scope_note": "This is propagation under the coursework uncertainty scenario, not a predictive interval for county TB incidence."
+}

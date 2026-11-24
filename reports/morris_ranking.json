@@ -1,0 +1,107 @@
+{
+  "factor_count": 25,
+  "trajectories": 100,
+  "scope_note": "Bounded scenario screening, not a probabilistic variance decomposition.",
+  "ranking": {
+    "x: PublicCoveragePerCapita": {
+      "mu_star": 125.3428,
+      "sigma": 0.0
+    },
+    "x: avgResidualsPerCapitaPerYear": {
+      "mu_star": 90.6384,
+      "sigma": 2.6511
+    },
+    "x: PublicCoverageAlonePerCapita": {
+      "mu_star": 87.178,
+      "sigma": 0.0
+    },
+    "x: MarriedPerCapita": {
+      "mu_star": 19.3644,
+      "sigma": 0.0
+    },
+    "x: incidenceRatePerCapita": {
+      "mu_star": 17.5226,
+      "sigma": 0.0
+    },
+    "x: MarriedHouseholdsPerCapita": {
+      "mu_star": 17.2506,
+      "sigma": 0.0
+    },
+    "x: Unemployed16_OverPerCapita": {
+      "mu_star": 13.058,
+      "sigma": 0.1815
+    },
+    "x: povertyPerCapita": {
+      "mu_star": 12.7117,
+      "sigma": 0.1299
+    },
+    "x: AvgHouseholdSizePerCapita": {
+      "mu_star": 12.4668,
+      "sigma": 0.0
+    },
+    "x: BachDeg25_OverPerCapita": {
+      "mu_star": 12.1924,
+      "sigma": 0.0
+    },
+    "b: avgResidualsPerCapitaPerYear": {
+      "mu_star": 8.6251,
+      "sigma": 2.7388
+    },
+    "x: HS18_24PerCapita": {
+      "mu_star": 7.5109,
+      "sigma": 0.0
+    },
+    "x: Employed16_OverPerCapita": {
+      "mu_star": 4.0519,
+      "sigma": 0.0076
+    },
+    "x: popEst2015": {
+      "mu_star": 2.9168,
+      "sigma": 0.0837
+    },
+    "x: EmpPrivCoveragePerCapita": {
+      "mu_star": 2.6705,
+      "sigma": 0.0
+    },
+    "x: HS25_OverPerCapita": {
+      "mu_star": 2.5011,
+      "sigma": 0.0365
+    },
+    "x: PrivateCoveragePerCapita": {
+      "mu_star": 2.3779,
+      "sigma": 0.0
+    },
+    "x: NoHS18_24PerCapita": {
+      "mu_star": 1.8328,
+      "sigma": 0.0
+    },
+    "x: BachDeg18_24PerCapita": {
+      "mu_star": 1.7733,
+      "sigma": 0.0
+    },
+    "b: intercept": {
+      "mu_star": 1.1803,
+      "sigma": 0.0
+    },
+    "b: Unemployed16_OverPerCapita": {
+      "mu_star": 0.3348,
+      "sigma": 0.1858
+    },
+    "b: povertyPerCapita": {
+      "mu_star": 0.2756,
+      "sigma": 0.1433
+    },
+    "b: HS25_OverPerCapita": {
+      "mu_star": 0.1549,
+      "sigma": 0.0387
+    },
+    "b: popEst2015": {
+      "mu_star": 0.096,
+      "sigma": 0.0908
+    },
+    "b: Employed16_OverPerCapita": {
+      "mu_star": 0.0378,
+      "sigma": 0.008
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "strategies": [
+    {
+      "strategy": "no IQR removal",
+      "rows": 3047,
+      "standard_uncertainty": 48.816,
+      "change_vs_raw_pct": 0.0,
+      "top_factor": "x: PublicCoveragePerCapita",
+      "top_factor_ST": 0.4364
+    },
+    {
+      "strategy": "predictor-only IQR",
+      "rows": 2067,
+      "standard_uncertainty": 46.686,
+      "change_vs_raw_pct": -4.36,
+      "top_factor": "x: PublicCoveragePerCapita",
+      "top_factor_ST": 0.4749
+    },
+    {
+      "strategy": "coursework all-column IQR",
+      "rows": 2050,
+      "standard_uncertainty": 45.665,
+      "change_vs_raw_pct": -6.45,
+      "top_factor": "x: PublicCoveragePerCapita",
+      "top_factor_ST": 0.4709
+    }
+  ],
+  "note": "This is a preprocessing-sensitivity audit, not a claim that one IQR strategy is epidemiologically correct."
+}
